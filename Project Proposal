@@ -1,0 +1,31 @@
+TITLE : Image processing on FPGA using Verilog HDL
+
+
+B) OBJECTIVES 
+
+To learn how to represent an image as a matrix.
+To learn how to manipulate and analyze an image using code.
+To learn the basics of FPGA and use it to do some basic operations on an image.
+
+C) It would be implemented as RTL project.
+
+D) FUNCTIONALITY
+	
+We would be implementing various functions to process the image.
+
+Invert image: This function will invert an image.
+
+Black and white : This function will convert any image into a black and white image.
+
+Increase/decrease brightness of an image.
+
+Image sharpening.
+
+Image smoothening.(Tentative)
+
+
+We would display our project via a website(Tentative).
+
+
+
+'
