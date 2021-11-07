@@ -2,7 +2,7 @@ close all;
 clear all;
 clc;
 
-b=imread('kodim23.bmp'); % 24-bit BMP image RGB888 
+b=imread('parrot.bmp'); % 24-bit BMP image RGB888 
 
 k=1;
 for i=512:-1:1 % image is written from the last row to the first row
@@ -13,7 +13,7 @@ a(k+2)=b(i,j,3);
 k=k+3;
 end
 end
-fid = fopen('input.hex', 'wt');
+fid = fopen('testimage.hex', 'wt');
 fprintf(fid, '%x\n', a);
 disp('Text file write done');disp(' ');
 fclose(fid);
