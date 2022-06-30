@@ -9,3 +9,5 @@ In this project we have implemented image processing in verilog.
 3. We output the processed pixels in 2 as another hex file.
 
 4. We use PIL library in python to convert any hex file generated in 3 into a image in png format.
+
+5. The main project is in the Final Project folder
